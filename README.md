@@ -22,6 +22,34 @@ SAT Scores for 2017, 2018 and 2019 : Participation Rate and Average Test Scores
 US States in their abbreviation format : For charting purpose
 Percentage of People in each State with a Bachelor's Degree or higher (source) : For further insights
 
+## Data Dictionary
+
+Feature	Type	Dataset	Description
+state	object	ACT/SAT	Name of USA state
+act17_participation	float64	ACT	ACT Participation Rate (%) in 2017 by state
+act17_composite	float64	ACT	ACT Average Test Score (Composite) in 2017 by state
+act18_participation	float64	ACT	ACT Participation Rate (%) in 2018 by state
+act18_composite	float64	ACT	ACT Average Test Score (Composite) in 2018 by state
+act19_participation	float64	ACT	ACT Participation Rate (%) in 2019 by state
+act19_composite	float64	ACT	ACT Average Test Score (Composite) in 2019 by state
+sat17_participation	float64	SAT	SAT Participation Rate (%) in 2017 by state
+sat17_ebrw	int64	SAT	SAT Evidence-Based Reading and Writing and Math (EBRW) Average in 2017 by state
+sat17_math	int64	SAT	SAT Math Average in 2017 by state
+sat17_total	int64	SAT	SAT Total Score Average in 2017 by state
+sat18_participation	float64	SAT	SAT Participation Rate (%) in 2018 by state
+sat18_ebrw	int64	SAT	SAT Evidence-Based Reading and Writing and Math (EBRW) Average in 2018 by state
+sat18_math	int64	SAT	SAT Math Average in 2018 by state
+sat18_total	int64	SAT	SAT Total Score Average in 2018 by state
+sat19_participation	float64	SAT	SAT Participation Rate (%) in 2019 by state
+sat19_ebrw	int64	SAT	SAT Evidence-Based Reading and Writing and Math (EBRW) Average in 2019 by state
+sat19_math	int64	SAT	SAT Math Average in 2019 by state
+sat19_total	int64	SAT	SAT Total Score Average in 2019 by state
+actsat17_participation	float64	Processed Data	Summation of ACT and SAT Participation Rate (%) in 2017 by state
+actsat18_participation	float64	Processed Data	Summation of ACT and SAT Participation Rate (%) in 2018 by state
+actsat19_participation	float64	Processed Data	Summation of ACT and SAT Participation Rate (%) in 2019 by state
+abbrevation	object	Customised Data	Two letters format (abbrevation) by state
+graduates_percentage	float64	Customised Data	Percentage of people with degree and above by state
+
 
 ## Summary of Findings
 
